@@ -1,0 +1,28 @@
+
+p{
+    color:yellow;
+}
+/*universal */
+* {
+    color:blue;
+}
+/* class selector -best practice */
+.myclass{
+    background-color:rgb(128, 0, 117);
+}
+/* id selector */
+#myclass{
+    background-color:rgb(24, 165, 184);
+}
+/* auth-form{
+} */
+ body{
+    margin:10px;
+    padding: 10px;
+    background-color:rgba(205, 18, 171, 0.892) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+ }
