@@ -1,23 +1,24 @@
 import React from 'react'
-import Contact from './pages/Contact'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
+import Contact from './pages/Contact'
 import Products from './pages/Products'
-import{BrowserRouter,Route,Router,Routes} from 'react-router-dom'
-//import {} from 'react'
+import WebLayout from './layouts/WebLayout'
+// import {} from 'react'
 const App = () => {
-  return (
-    <>
-        <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='/products' element={<Products/>} />
-                <Router path='/contact' element={<Contact/>} />
-            </Routes>
-        </BrowserRouter>
-      
-    </>
-  )
+    return (
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route element={<WebLayout />}>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/products' element={<Products />} />
+                        <Route path='/contact' element={<Contact />} />
+                    </Route>
+                </Routes>
+            </BrowserRouter>
+        </>
+    )
 }
 
 export default App
-
