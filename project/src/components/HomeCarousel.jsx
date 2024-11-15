@@ -75,29 +75,6 @@ const HomeCarousel = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img className="h-[50vh] object-cover" src="https://th.bing.com/th/id/OIP.L0ljSYevUa1znazEpoHDMgHaE8?w=212&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" />
-          {/* <p className="legend">TV</p> */}
-          <div className="absolute left-2 bottom-2 flex flex-col bg-white rounded-md">
-            <div className="px-6 py-8 sm:p-10 sm:pb-6">
-              <div className="grid items-center justify-center w-full grid-cols-1 text-left">
-                <div>
-                  <h2 className="text-lg font-medium tracking-tighter text-gray-600 lg:text-3xl">
-                    Air pods
-                  </h2>
-                </div>
-                <div className="mt-6">
-                  <p>
-                    <span className="text-5xl font-semibold tracking-tight text-purple-600">
-                      70%
-                    </span>
-                    <span className="text-base font-medium text-gray-500"> offer </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>        
       </Carousel>
 
     </>
